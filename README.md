@@ -6,7 +6,9 @@ Simple Proxy Checker
 # Check HTTPS by providing a HTTPS link;
 
 checkLink = 'add-url-here'
+
 proxyValueChecker = 'add-value-of-checkLinkHere' # Value provided on the page;
+
 threads = 300 # Changeable value.
 
 # How to setup.

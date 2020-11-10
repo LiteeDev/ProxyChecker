@@ -1,24 +1,25 @@
-# ProxyChecker
-Simple Proxy Checker
+# Proxy Checker
 
-# Checking HTTP or HTTPS. 
-# Check HTTP by providing a HTTP link.
-# Check HTTPS by providing a HTTPS link;
 
-checkLink = 'add-url-here'
+A simple python proxy checker with the ability to check HTTP/HTTPS
 
-proxyValueChecker = 'add-value-of-checkLinkHere' # Value provided on the page;
+  - The ability to check the proxy is able to retrieve the correct information provided to checkLink page.
+  - HTTP & HTTPS Check
+  - MultiThreaded.
 
-threads = 300 # Changeable value.
+### Installation
 
-# How to setup.
+Requires Python 3> and pip requests.
+Install the dependencies and devDependencies and start the running script.
 
-Provide a raw text link, such as pastebin, or website path containing some value to check against.
+```sh
+$ pip install requests
+```
 
-Check HTTPS by providing a HTTPS URL.
-Check HTTP by providing a HTTP URL.
+### Todos
 
-Example:
-checkLink = 'https://pastebin.com/raw/fUEXW7m9'
-proxyValueChecker = 'test' # The value of the given pastebin above.
+ - HTTPS/HTTP manual choosing flag.
+ - Auto Scrape
+
+
 

@@ -1,7 +1,6 @@
 import os.path
 import requests
 import threading
-import json
 import re
 import math
 import socket
